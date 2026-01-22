@@ -1,0 +1,229 @@
+digraph "10.61.38.134" {
+  subgraph "clusterh10.61.38.134" {
+    graph [
+      label = "IP: 10.61.38.134"
+    ];
+
+    subgraph "clusterh10.61.38.134p2443" {
+      graph [
+        label = "port: 2443"
+      ];
+
+      "10.61.38.134:2443-3" [
+        label = <<FONT COLOR='blue'>3</FONT>>
+      ];
+    }
+    subgraph "clusterh10.61.38.134p1142" {
+      graph [
+        label = "port: 1142"
+      ];
+
+      "10.61.38.134:1142-3" [
+        label = <<FONT COLOR='blue'>3</FONT>>
+      ];
+    }
+    subgraph "clusterh10.61.38.134p1141" {
+      graph [
+        label = "port: 1141"
+      ];
+
+      "10.61.38.134:1141-3" [
+        color = green,
+        label = <<FONT COLOR='blue'>3</FONT>>,
+        shape = Mdiamond
+      ];
+    }
+  }
+  subgraph "clusterh10.61.38.135" {
+    graph [
+      label = "IP: 10.61.38.135"
+    ];
+
+    subgraph "clusterh10.61.38.135p2602" {
+      graph [
+        label = "port: 2602"
+      ];
+
+      "10.61.38.135:2602-3" [
+        label = <<FONT COLOR='blue'>3</FONT>>
+      ];
+    }
+    subgraph "clusterh10.61.38.135p2635" {
+      graph [
+        label = "port: 2635"
+      ];
+
+      "10.61.38.135:2635-3" [
+        label = <<FONT COLOR='blue'>3</FONT>>
+      ];
+    }
+    subgraph "clusterh10.61.38.135p2490" {
+      graph [
+        label = "port: 2490"
+      ];
+
+      "10.61.38.135:2490-3" [
+        label = <<FONT COLOR='blue'>3</FONT>>
+      ];
+    }
+    subgraph "clusterh10.61.38.135p2604" {
+      graph [
+        label = "port: 2604"
+      ];
+
+      "10.61.38.135:2604-3" [
+        label = <<FONT COLOR='blue'>3</FONT>>
+      ];
+    }
+    subgraph "clusterh10.61.38.135p2492" {
+      graph [
+        label = "port: 2492"
+      ];
+
+      "10.61.38.135:2492-3" [
+        label = <<FONT COLOR='blue'>3</FONT>>
+      ];
+    }
+    subgraph "clusterh10.61.38.135p2518" {
+      graph [
+        label = "port: 2518"
+      ];
+
+      "10.61.38.135:2518-3" [
+        label = <<FONT COLOR='blue'>3</FONT>>
+      ];
+    }
+    subgraph "clusterh10.61.38.135p2508" {
+      graph [
+        label = "port: 2508"
+      ];
+
+      "10.61.38.135:2508-3" [
+        label = <<FONT COLOR='blue'>3</FONT>>
+      ];
+    }
+    subgraph "clusterh10.61.38.135p1091" {
+      graph [
+        label = "port: 1091"
+      ];
+
+      "10.61.38.135:1091-3" [
+        label = <<FONT COLOR='blue'>3</FONT>>
+      ];
+    }
+    subgraph "clusterh10.61.38.135p2661" {
+      graph [
+        label = "port: 2661"
+      ];
+
+      "10.61.38.135:2661-3" [
+        color = red,
+        label = <<FONT COLOR='blue'>3</FONT>>,
+        shape = Msquare
+      ];
+    }
+    subgraph "clusterh10.61.38.135p2608" {
+      graph [
+        label = "port: 2608"
+      ];
+
+      "10.61.38.135:2608-3" [
+        label = <<FONT COLOR='blue'>3</FONT>>
+      ];
+    }
+    subgraph "clusterh10.61.38.135p2504" {
+      graph [
+        label = "port: 2504"
+      ];
+
+      "10.61.38.135:2504-3" [
+        label = <<FONT COLOR='blue'>3</FONT>>
+      ];
+    }
+  }
+  "10.61.38.135:2504-3" [
+    label = <<FONT COLOR='blue'>3</FONT>>
+  ];
+  "10.61.38.135:2518-3" [
+    label = <<FONT COLOR='blue'>3</FONT>>
+  ];
+  "10.61.38.135:2604-3" [
+    label = <<FONT COLOR='blue'>3</FONT>>
+  ];
+  "10.61.38.135:2490-3" [
+    label = <<FONT COLOR='blue'>3</FONT>>
+  ];
+  "10.61.38.135:2602-3" [
+    label = <<FONT COLOR='blue'>3</FONT>>
+  ];
+  "10.61.38.134:1142-3" [
+    label = <<FONT COLOR='blue'>3</FONT>>
+  ];
+  "10.61.38.134:2443-3" [
+    label = <<FONT COLOR='blue'>3</FONT>>
+  ];
+  "10.61.38.135:2508-3" [
+    label = <<FONT COLOR='blue'>3</FONT>>
+  ];
+  "10.61.38.135:1091-3" [
+    label = <<FONT COLOR='blue'>3</FONT>>
+  ];
+  "10.61.38.135:2635-3" [
+    label = <<FONT COLOR='blue'>3</FONT>>
+  ];
+  "10.61.38.135:2661-3" [
+    color = red,
+    label = <<FONT COLOR='blue'>3</FONT>>,
+    shape = Msquare
+  ];
+  "10.61.38.135:2608-3" [
+    label = <<FONT COLOR='blue'>3</FONT>>
+  ];
+  "10.61.38.135:2492-3" [
+    label = <<FONT COLOR='blue'>3</FONT>>
+  ];
+  "10.61.38.134:1141-3" [
+    color = green,
+    label = <<FONT COLOR='blue'>3</FONT>>,
+    shape = Mdiamond
+  ];
+  "10.61.38.134:1141-3" -> "10.61.38.135:1091-3" [
+    label = 1
+  ];
+  "10.61.38.135:2608-3" -> "10.61.38.134:2443-3" [
+    label = 1
+  ];
+  "10.61.38.135:2504-3" -> "10.61.38.135:2508-3" [
+    label = 1
+  ];
+  "10.61.38.134:2443-3" -> "10.61.38.135:2635-3" [
+    label = 1
+  ];
+  "10.61.38.135:2490-3" -> "10.61.38.135:2492-3" [
+    label = 1
+  ];
+  "10.61.38.135:2492-3" -> "10.61.38.135:2504-3" [
+    label = 1
+  ];
+  "10.61.38.135:2604-3" -> "10.61.38.135:2608-3" [
+    label = 1
+  ];
+  "10.61.38.134:1142-3" -> "10.61.38.135:2490-3" [
+    label = 1
+  ];
+  "10.61.38.135:2518-3" -> "10.61.38.135:2602-3" [
+    label = 1
+  ];
+  "10.61.38.135:2602-3" -> "10.61.38.135:2604-3" [
+    label = 1
+  ];
+  "10.61.38.135:1091-3" -> "10.61.38.134:1142-3" [
+    label = 1
+  ];
+  "10.61.38.135:2635-3" -> "10.61.38.135:2661-3" [
+    label = 1
+  ];
+  "10.61.38.135:2508-3" -> "10.61.38.135:2518-3" [
+    label = 1
+  ];
+}

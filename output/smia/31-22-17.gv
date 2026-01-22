@@ -1,0 +1,220 @@
+digraph "10.3.36.2" {
+  subgraph "clusterh10.3.36.3" {
+    graph [
+      label = "IP: 10.3.36.3"
+    ];
+
+    subgraph "clusterh10.3.36.3p1230" {
+      graph [
+        label = "port: 1230"
+      ];
+
+      "10.3.36.3:1230-3" [
+        label = <<FONT COLOR='blue'>3</FONT>>
+      ];
+    }
+    subgraph "clusterh10.3.36.3p1231" {
+      graph [
+        label = "port: 1231"
+      ];
+
+      "10.3.36.3:1231-3" [
+        label = <<FONT COLOR='blue'>3</FONT>>
+      ];
+    }
+    subgraph "clusterh10.3.36.3p2929" {
+      graph [
+        label = "port: 2929"
+      ];
+
+      "10.3.36.3:2929-3" [
+        label = <<FONT COLOR='blue'>3</FONT>>
+      ];
+    }
+    subgraph "clusterh10.3.36.3p1232" {
+      graph [
+        label = "port: 1232"
+      ];
+
+      "10.3.36.3:1232-3" [
+        label = <<FONT COLOR='blue'>3</FONT>>
+      ];
+      "10.3.36.3:1232-16008" [
+        label = <<FONT COLOR='blue'>16008</FONT>>
+      ];
+    }
+    subgraph "clusterh10.3.36.3p1233" {
+      graph [
+        label = "port: 1233"
+      ];
+
+      "10.3.36.3:1233-16008" [
+        label = <<FONT COLOR='blue'>16008</FONT>>
+      ];
+      "10.3.36.3:1233-3" [
+        label = <<FONT COLOR='blue'>3</FONT>>
+      ];
+    }
+    subgraph "clusterh10.3.36.3p1997" {
+      graph [
+        label = "port: 1997"
+      ];
+
+      "10.3.36.3:1997-3" [
+        label = <<FONT COLOR='blue'>3</FONT>>
+      ];
+    }
+    subgraph "clusterh10.3.36.3p2930" {
+      graph [
+        label = "port: 2930"
+      ];
+
+      "10.3.36.3:2930-3" [
+        color = red,
+        label = <<FONT COLOR='blue'>3</FONT>>,
+        shape = Msquare
+      ];
+    }
+    subgraph "clusterh10.3.36.3p2076" {
+      graph [
+        label = "port: 2076"
+      ];
+
+      "10.3.36.3:2076-3" [
+        label = <<FONT COLOR='blue'>3</FONT>>
+      ];
+    }
+    subgraph "clusterh10.3.36.3p2075" {
+      graph [
+        label = "port: 2075"
+      ];
+
+      "10.3.36.3:2075-3" [
+        label = <<FONT COLOR='blue'>3</FONT>>
+      ];
+    }
+    subgraph "clusterh10.3.36.3p2078" {
+      graph [
+        label = "port: 2078"
+      ];
+
+      "10.3.36.3:2078-3" [
+        label = <<FONT COLOR='blue'>3</FONT>>
+      ];
+    }
+    subgraph "clusterh10.3.36.3p2077" {
+      graph [
+        label = "port: 2077"
+      ];
+
+      "10.3.36.3:2077-16008" [
+        label = <<FONT COLOR='blue'>16008</FONT>>
+      ];
+      "10.3.36.3:2077-3" [
+        label = <<FONT COLOR='blue'>3</FONT>>
+      ];
+    }
+    subgraph "clusterh10.3.36.3p2000" {
+      graph [
+        label = "port: 2000"
+      ];
+
+      "10.3.36.3:2000-3" [
+        color = green,
+        label = <<FONT COLOR='blue'>3</FONT>>,
+        shape = Mdiamond
+      ];
+    }
+  }
+  "10.3.36.3:1232-3" [
+    label = <<FONT COLOR='blue'>3</FONT>>
+  ];
+  "10.3.36.3:1231-3" [
+    label = <<FONT COLOR='blue'>3</FONT>>
+  ];
+  "10.3.36.3:2076-3" [
+    label = <<FONT COLOR='blue'>3</FONT>>
+  ];
+  "10.3.36.3:2077-3" [
+    label = <<FONT COLOR='blue'>3</FONT>>
+  ];
+  "10.3.36.3:1997-3" [
+    label = <<FONT COLOR='blue'>3</FONT>>
+  ];
+  "10.3.36.3:2930-3" [
+    color = red,
+    label = <<FONT COLOR='blue'>3</FONT>>,
+    shape = Msquare
+  ];
+  "10.3.36.3:1233-16008" [
+    label = <<FONT COLOR='blue'>16008</FONT>>
+  ];
+  "10.3.36.3:2075-3" [
+    label = <<FONT COLOR='blue'>3</FONT>>
+  ];
+  "10.3.36.3:2078-3" [
+    label = <<FONT COLOR='blue'>3</FONT>>
+  ];
+  "10.3.36.3:1232-16008" [
+    label = <<FONT COLOR='blue'>16008</FONT>>
+  ];
+  "10.3.36.3:2077-16008" [
+    label = <<FONT COLOR='blue'>16008</FONT>>
+  ];
+  "10.3.36.3:1230-3" [
+    label = <<FONT COLOR='blue'>3</FONT>>
+  ];
+  "10.3.36.3:2000-3" [
+    color = green,
+    label = <<FONT COLOR='blue'>3</FONT>>,
+    shape = Mdiamond
+  ];
+  "10.3.36.3:2929-3" [
+    label = <<FONT COLOR='blue'>3</FONT>>
+  ];
+  "10.3.36.3:1233-3" [
+    label = <<FONT COLOR='blue'>3</FONT>>
+  ];
+  "10.3.36.3:2000-3" -> "10.3.36.3:1997-3" [
+    label = 1
+  ];
+  "10.3.36.3:2929-3" -> "10.3.36.3:2930-3" [
+    label = 1
+  ];
+  "10.3.36.3:2078-3" -> "10.3.36.3:2077-16008" [
+    label = 1
+  ];
+  "10.3.36.3:1231-3" -> "10.3.36.3:1230-3" [
+    label = 1
+  ];
+  "10.3.36.3:1232-3" -> "10.3.36.3:1233-3" [
+    label = 1
+  ];
+  "10.3.36.3:2076-3" -> "10.3.36.3:2075-3" [
+    label = 1
+  ];
+  "10.3.36.3:1233-16008" -> "10.3.36.3:1232-16008" [
+    label = 1
+  ];
+  "10.3.36.3:1232-16008" -> "10.3.36.3:2929-3" [
+    label = 1
+  ];
+  "10.3.36.3:2077-16008" -> "10.3.36.3:1231-3" [
+    label = 1
+  ];
+  "10.3.36.3:1997-3" -> "10.3.36.3:2076-3" [
+    label = 1
+  ];
+  "10.3.36.3:1233-3" -> "10.3.36.3:1233-16008" [
+    label = 1
+  ];
+  "10.3.36.3:2075-3" -> "10.3.36.3:2077-3" [
+    label = 1
+  ];
+  "10.3.36.3:2077-3" -> "10.3.36.3:2078-3" [
+    label = 1
+  ];
+  "10.3.36.3:1230-3" -> "10.3.36.3:1232-3" [
+    label = 1
+  ];
+}

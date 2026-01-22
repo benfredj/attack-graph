@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/40/trunk/src/ged/editpath/editoperation
+END
+EdgeInsertion.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/40/trunk/src/ged/editpath/editoperation/EdgeInsertion.java
+END
+NodeInsertion.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/40/trunk/src/ged/editpath/editoperation/NodeInsertion.java
+END
+NodeSubstitution.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/40/trunk/src/ged/editpath/editoperation/NodeSubstitution.java
+END
+EditOperation.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/40/trunk/src/ged/editpath/editoperation/EditOperation.java
+END
+EdgeDeletion.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/40/trunk/src/ged/editpath/editoperation/EdgeDeletion.java
+END
+NodeDeletion.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/40/trunk/src/ged/editpath/editoperation/NodeDeletion.java
+END

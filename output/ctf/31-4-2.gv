@@ -1,0 +1,229 @@
+digraph "10.31.1.2" {
+  subgraph "clusterhost10.31.1.2" {
+    graph [
+      label = "IP: 10.31.1.2"
+    ];
+
+    subgraph clusterport57005 {
+      graph [
+        label = "port: 57005"
+      ];
+
+      "10.31.1.2:57005-648" [
+        color = red,
+        label = <<FONT COLOR='blue'>648</FONT>>,
+        shape = Msquare
+      ];
+    }
+    subgraph clusterport5911 {
+      graph [
+        label = "port: 5911"
+      ];
+
+      "10.31.1.2:5911-2002911" [
+        label = <<FONT COLOR='blue'>2002911</FONT>>
+      ];
+    }
+    subgraph clusterport1521 {
+      graph [
+        label = "port: 1521"
+      ];
+
+      "10.31.1.2:1521-2010936" [
+        label = <<FONT COLOR='blue'>2010936</FONT>>
+      ];
+    }
+    subgraph clusterport162 {
+      graph [
+        label = "port: 162"
+      ];
+
+      "10.31.1.2:162-1420" [
+        label = <<FONT COLOR='blue'>1420</FONT>>
+      ];
+    }
+    subgraph clusterport161 {
+      graph [
+        label = "port: 161"
+      ];
+
+      "10.31.1.2:161-1418" [
+        label = <<FONT COLOR='blue'>1418</FONT>>
+      ];
+    }
+    subgraph clusterport5432 {
+      graph [
+        label = "port: 5432"
+      ];
+
+      "10.31.1.2:5432-2010939" [
+        label = <<FONT COLOR='blue'>2010939</FONT>>
+      ];
+    }
+    subgraph clusterport111 {
+      graph [
+        label = "port: 111"
+      ];
+
+      "10.31.1.2:111-598" [
+        color = green,
+        label = <<FONT COLOR='blue'>598</FONT>>,
+        shape = Mdiamond
+      ];
+    }
+    subgraph clusterport1433 {
+      graph [
+        label = "port: 1433"
+      ];
+
+      "10.31.1.2:1433-2010935" [
+        label = <<FONT COLOR='blue'>2010935</FONT>>
+      ];
+    }
+    subgraph clusterport4343 {
+      graph [
+        label = "port: 4343"
+      ];
+
+      "10.31.1.2:4343-648" [
+        label = <<FONT COLOR='blue'>648</FONT>>
+      ];
+    }
+    subgraph clusterport4333 {
+      graph [
+        label = "port: 4333"
+      ];
+
+      "10.31.1.2:4333-2010938" [
+        label = <<FONT COLOR='blue'>2010938</FONT>>
+      ];
+    }
+    subgraph clusterport3306 {
+      graph [
+        label = "port: 3306"
+      ];
+
+      "10.31.1.2:3306-2010937" [
+        label = <<FONT COLOR='blue'>2010937</FONT>>
+      ];
+    }
+    subgraph clusterport5810 {
+      graph [
+        label = "port: 5810"
+      ];
+
+      "10.31.1.2:5810-2002910" [
+        label = <<FONT COLOR='blue'>2002910</FONT>>
+      ];
+    }
+    subgraph clusterport5915 {
+      graph [
+        label = "port: 5915"
+      ];
+
+      "10.31.1.2:5915-2002911" [
+        label = <<FONT COLOR='blue'>2002911</FONT>>
+      ];
+    }
+  }
+  "10.31.1.2:4343-648" [
+    label = <<FONT COLOR='blue'>648</FONT>>
+  ];
+  "10.31.1.2:1521-2010936" [
+    label = <<FONT COLOR='blue'>2010936</FONT>>
+  ];
+  "10.31.1.2:161-1418" [
+    label = <<FONT COLOR='blue'>1418</FONT>>
+  ];
+  "10.31.1.2:5915-2002911" [
+    label = <<FONT COLOR='blue'>2002911</FONT>>
+  ];
+  "10.31.1.2:57005-648" [
+    color = red,
+    label = <<FONT COLOR='blue'>648</FONT>>,
+    shape = Msquare
+  ];
+  "10.31.1.2:4333-2010938" [
+    label = <<FONT COLOR='blue'>2010938</FONT>>
+  ];
+  "10.31.1.2:3306-2010937" [
+    label = <<FONT COLOR='blue'>2010937</FONT>>
+  ];
+  "10.31.1.2:1433-2010935" [
+    label = <<FONT COLOR='blue'>2010935</FONT>>
+  ];
+  "10.31.1.2:5432-2010939" [
+    label = <<FONT COLOR='blue'>2010939</FONT>>
+  ];
+  "10.31.1.2:5911-2002911" [
+    label = <<FONT COLOR='blue'>2002911</FONT>>
+  ];
+  "10.31.1.2:111-598" [
+    color = green,
+    label = <<FONT COLOR='blue'>598</FONT>>,
+    shape = Mdiamond
+  ];
+  "10.31.1.2:162-1420" [
+    label = <<FONT COLOR='blue'>1420</FONT>>
+  ];
+  "10.31.1.2:5810-2002910" [
+    label = <<FONT COLOR='blue'>2002910</FONT>>
+  ];
+  "10.31.1.2:5810-2002910" -> "10.31.1.2:5911-2002911" [
+    label = 1
+  ];
+  "10.31.1.2:5911-2002911" -> "10.31.1.2:161-1418" [
+    label = 1
+  ];
+  "10.31.1.2:161-1418" -> "10.31.1.2:5915-2002911" [
+    label = 1
+  ];
+  "10.31.1.2:4343-648" -> "10.31.1.2:4343-648" [
+    label = 672
+  ];
+  "10.31.1.2:111-598" -> "10.31.1.2:111-598" [
+    label = 1
+  ];
+  "10.31.1.2:1521-2010936" -> "10.31.1.2:5810-2002910" [
+    label = 1
+  ];
+  "10.31.1.2:4343-648" -> "10.31.1.2:3306-2010937" [
+    label = 1
+  ];
+  "10.31.1.2:162-1420" -> "10.31.1.2:161-1418" [
+    label = 1
+  ];
+  "10.31.1.2:3306-2010937" -> "10.31.1.2:4333-2010938" [
+    label = 1
+  ];
+  "10.31.1.2:3306-2010937" -> "10.31.1.2:3306-2010937" [
+    label = 1
+  ];
+  "10.31.1.2:1433-2010935" -> "10.31.1.2:3306-2010937" [
+    label = 1
+  ];
+  "10.31.1.2:5432-2010939" -> "10.31.1.2:1521-2010936" [
+    label = 1
+  ];
+  "10.31.1.2:57005-648" -> "10.31.1.2:57005-648" [
+    label = 221
+  ];
+  "10.31.1.2:161-1418" -> "10.31.1.2:111-598" [
+    label = 1
+  ];
+  "10.31.1.2:5915-2002911" -> "10.31.1.2:1433-2010935" [
+    label = 1
+  ];
+  "10.31.1.2:111-598" -> "10.31.1.2:57005-648" [
+    label = 1
+  ];
+  "10.31.1.2:4333-2010938" -> "10.31.1.2:162-1420" [
+    label = 1
+  ];
+  "10.31.1.2:3306-2010937" -> "10.31.1.2:5432-2010939" [
+    label = 1
+  ];
+  "10.31.1.2:111-598" -> "10.31.1.2:4343-648" [
+    label = 1
+  ];
+}

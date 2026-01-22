@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/53/trunk/src/ged/editpath
+END
+EditPath.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/33/trunk/src/ged/editpath/EditPath.java
+END
+NodeEditPath.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/33/trunk/src/ged/editpath/NodeEditPath.java
+END
+EditPathFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/40/trunk/src/ged/editpath/EditPathFinder.java
+END
+CostLimitExceededException.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/37/trunk/src/ged/editpath/CostLimitExceededException.java
+END

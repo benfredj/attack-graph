@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/41/trunk/src/ged/gui
+END
+MainFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/40/trunk/src/ged/gui/MainFrame.java
+END
+GraphPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/41/trunk/src/ged/gui/GraphPanel.java
+END
+GUICreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/28/trunk/src/ged/gui/GUICreator.java
+END
+DotInputPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/24/trunk/src/ged/gui/DotInputPanel.java
+END
+GedProcessWorker.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/37/trunk/src/ged/gui/GedProcessWorker.java
+END
+CostPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/40/trunk/src/ged/gui/CostPanel.java
+END
+ResultFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/24/trunk/src/ged/gui/ResultFrame.java
+END
+EditOperationsPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/24/trunk/src/ged/gui/EditOperationsPanel.java
+END
+View.java
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/26/trunk/src/ged/gui/View.java
+END
+ComputePanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/28/trunk/src/ged/gui/ComputePanel.java
+END
